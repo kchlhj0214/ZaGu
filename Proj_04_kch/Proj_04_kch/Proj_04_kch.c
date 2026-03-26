@@ -155,7 +155,8 @@ int main()
 	//char *p = "A(x) = 24.5 * ( x + func(x, y)) * ( r * r * 3.14 ) / [ 7%10* sqrt(25)];";		// 정상 수식
 	//char* p = "A(x) = 24.5 * ( x + func(x, y)) * ({( r * r * 3.14 ) / [ 7%10* sqrt(25)];";	// 왼쪽 괄호 오류
 	//char* p = "A(x) = 24.5 * ( x + func(x, y)) * ( r * r * 3.14 / [ 7%10* sqrt(25)])}));";	// 오른쪽 괄호 오류
-	char* p = "A(x) =({[ }])";																	// 양쪽 괄호 오류
+	//char* p = "A(x) =({[ }])";																// 양쪽 괄호 오류
+	char* p = "A(x) = 24.5 * ( x + func(x, y))] * ( r * r * 3.14 )) / [ 7%10* sqrt(25)];";
 	printf("\n%s\n", p);
 
 	check_matching(p);

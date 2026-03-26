@@ -1,4 +1,4 @@
 ﻿  Proj_04_kch.c
-C:\Users\User\source\repos\Proj_04_kch\Proj_04_kch\Proj_04_kch.c(55,13): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\source\repos\Proj_04_kch\Proj_04_kch\Proj_04_kch.c(55,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-  Proj_04_kch.vcxproj -> C:\Users\User\source\repos\Proj_04_kch\x64\Debug\Proj_04_kch.exe
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_04_kch\Proj_04_kch\Proj_04_kch.c(55,13): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_04_kch\Proj_04_kch\Proj_04_kch.c(55,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  Proj_04_kch.vcxproj -> C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_04_kch\x64\Debug\Proj_04_kch.exe
