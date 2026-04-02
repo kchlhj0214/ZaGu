@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ZaGu\\Proj_03_kch\\",
+  "WorkspaceRootPath": "C:\\Users\\wlsdl\\OneDrive\\\uBB38\uC11C\\GitHub\\ZaGu\\Proj_03_kch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10EB637D-EEDE-4366-9A08-9E1B40352756}|Proj_03_kch\\Proj_03_kch.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ZaGu\\Proj_03_kch\\Proj_03_kch\\Proj_03_kch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{10EB637D-EEDE-4366-9A08-9E1B40352756}|Proj_03_kch\\Proj_03_kch.vcxproj|C:\\Users\\wlsdl\\OneDrive\\\uBB38\uC11C\\GitHub\\ZaGu\\Proj_03_kch\\Proj_03_kch\\Proj_03_kch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{10EB637D-EEDE-4366-9A08-9E1B40352756}|Proj_03_kch\\Proj_03_kch.vcxproj|solutionrelative:Proj_03_kch\\Proj_03_kch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,25 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Proj_03_kch.c",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ZaGu\\Proj_03_kch\\Proj_03_kch\\Proj_03_kch.c",
+              "DocumentMoniker": "C:\\Users\\wlsdl\\OneDrive\\\uBB38\uC11C\\GitHub\\ZaGu\\Proj_03_kch\\Proj_03_kch\\Proj_03_kch.c",
               "RelativeDocumentMoniker": "Proj_03_kch\\Proj_03_kch.c",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ZaGu\\Proj_03_kch\\Proj_03_kch\\Proj_03_kch.c",
+              "ToolTip": "C:\\Users\\wlsdl\\OneDrive\\\uBB38\uC11C\\GitHub\\ZaGu\\Proj_03_kch\\Proj_03_kch\\Proj_03_kch.c",
               "RelativeToolTip": "Proj_03_kch\\Proj_03_kch.c",
-              "ViewState": "AgIAAFsAAAAAAAAAAADwv2cAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-17T08:20:57.01Z",
               "EditorCaption": ""
