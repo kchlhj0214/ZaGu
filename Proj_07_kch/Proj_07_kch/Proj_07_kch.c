@@ -138,124 +138,146 @@ int main()
 #define MAX_QUEUE_SIZE 10
 #define WORK_TIME 10000
 
-typedef int element;
 typedef struct {
+	int menu_code;
+	int order_time;
+}MENU_ORDERD;
+
+typedef MENU_ORDERD element;
+
+typedef struct {
+	int front;
+	int rear;
 	element data[MAX_QUEUE_SIZE];
-	int front, rear;
-} DequeType;
-// 오류 함수
+} QueueType;
+
 void error(char* message)
 {
 	fprintf(stderr, "%s\n", message);
 	exit(1);
 }
-// 초기화
-void init_deque(DequeType* q)
+void init_queue(QueueType* q)
 {
-	q->front = q->rear = 0;
+	q->rear = 0;
+	q->front = 0;
 }
-// 공백상태검출함수
-int is_empty(DequeType* q)
+int is_full(QueueType* q)
+{
+	// 단순히 rear == front로 비교하면 front가 0, rear가 끝자리일때 오류 발생
+	return ((q->rear + 1) % MAX_QUEUE_SIZE == q->front);
+}
+int is_empty(QueueType* q)
 {
 	return (q->front == q->rear);
 }
-// 포화상태검출함수
-int is_full(DequeType* q)
+void enqueue(QueueType* q, element item)
 {
-	return ((q->rear + 1) % MAX_QUEUE_SIZE == q->front);
-}
-// 삽입 함수
-void add_rear(DequeType* q, element item)
-{
-	if (is_full(q))
-		error("큐가 포화상태입니다");
+	if (is_full(q)) {
+		error("큐가 포화상태입니다.");
+		return;
+	}
 	q->rear = (q->rear + 1) % MAX_QUEUE_SIZE;
 	q->data[q->rear] = item;
 }
-// 삭제 함수
-element delete_front(DequeType* q)
+element dequeue(QueueType* q)
 {
-	if (is_empty(q))
-		error("큐가 공백상태입니다");
+	if (is_empty(q)) {
+		error("큐가 공백상태입니다.");
+		return;
+	}
 	q->front = (q->front + 1) % MAX_QUEUE_SIZE;
 	return q->data[q->front];
 }
-// 삭제함수
-element get_front(DequeType* q)
-{
-	if (is_empty(q))
-		error("큐가공백상태입니다");
-	return q->data[(q->front + 1) % MAX_QUEUE_SIZE];
-}
-void add_front(DequeType* q, element val)
-{
-	if (is_full(q))
-		error("큐가포화상태입니다");
-	q->data[q->front] = val;
-	q->front = (q->front - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
-}
-element delete_rear(DequeType* q)
-{
-	int prev = q->rear;
-	if (is_empty(q))
-		error("큐가공백상태입니다");
-	q->rear = (q->rear - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
-	return q->data[prev];
-}
-element get_rear(DequeType* q)
-{
-	if (is_empty(q))
-		error("큐가공백상태입니다");
-	return q->data[q->rear];
-}
 
 typedef struct {
-	int menu_code;
 	int menu_count;
 	int total_waiting_time;
 }MENU;
 
 typedef struct {
-	int menu_code;
-	int remain_time;
-	int order_time;
-	int fin_time;
-}MENU_ORDERD;
+	int rest_time;
+	int processing_time;
+}SERVER_INFO;
 
 void Hamburger_Simulator()
 {
+	srand(time(NULL));
+
+	int i = 0;
 	int time = 0;
 	int isBusyServer1 = 0;
 	int isBusyServer2 = 0;
+	int canceled_order = 0;
 	MENU menu[5] = {0};
+	MENU_ORDERD mo;
+
+	SERVER_INFO server1 = {0};
+	SERVER_INFO server2 = {0};
+	MENU_ORDERD get_order1 = { 0 };
+	MENU_ORDERD get_order2 = { 0 };
+
+	QueueType q;
+	init_queue(&q);
 
 	 while (time < WORK_TIME) { // time을 1씩 증가시키면서
-		if (time % 5 == 0) {// 새로운 손님 5시간 마다 도착하여 주문
+		if (time % 10 == 0) {// 새로운 손님 5시간 마다 도착하여 주문
 			//주문을 생성하여 큐에 넣기
+			++canceled_order;	// 주문은 들어갔지만 시간 초과로 서비스 하지 못한 경우 주문 취소로 간주하기 위해 서비스 성공시 -1
+
+			if (!is_full(&q)) {
+				int order = rand() % 5;
+				mo.menu_code = order;
+				mo.order_time = time;
+				enqueue(&q, mo);
+			}
 		}
 		if (!isBusyServer1) { //놀고 있다가 새로운 서비스 시작
-							...
+			if (!is_empty(&q)) {
+				isBusyServer1 = 1;
+				get_order1 = dequeue(&q);
+				server1.processing_time = get_order1.menu_code * 5 + 10;
+			}
+			else
+				++server1.rest_time;
 		}
 		else if (isBusyServer1 && server1.processing_time == 0) {//작업 끝남.  
-							...
+			isBusyServer1 = 0;
+			++menu[get_order1.menu_code].menu_count;
+			menu[get_order1.menu_code].total_waiting_time += time - get_order1.order_time;
+			--canceled_order;
 		}
 		if (!isBusyServer2) { //놀고 있다가 새로운 서비스 시작
-							 ...
-						 }
+			if (!is_empty(&q)) {
+				isBusyServer2 = 1;
+				get_order2 = dequeue(&q);
+				server2.processing_time = get_order2.menu_code * 5 + 10;
+			}
+			else
+				++server2.rest_time;
+		}
 		else if (isBusyServer2 && server2.processing_time == 0) {//작업 끝남.  
-							 ...
+			isBusyServer2 = 0;
+			++menu[get_order2.menu_code].menu_count;
+			menu[get_order2.menu_code].total_waiting_time += time - get_order2.order_time;
+			--canceled_order;
 		}
 		// 시간 업데이트
 		time++;
 		// server1이 서비스 중이면 시간 1 감소
+		if (server1.processing_time > 0)
+			--server1.processing_time;
 		// server2가 서비스 중이면 시간 1 감소
+		if (server2.processing_time > 0)
+			--server2.processing_time;
 	}
 	// 결과 출력
 	printf("=========== Results ============\n");
+	printf("큐의 갯수 : %d\n", MAX_QUEUE_SIZE);
 	for (i = 0; i < 5; i++) {
-		printf("MENU %d %d개 서비스, 누적대기시간 %d, 평균서비스시간 %f\n", ...);
+		printf("MENU %d %d개 서비스, 누적대기시간 %d, 평균서비스시간 %f\n", i, menu[i].menu_count, menu[i].total_waiting_time, (float)menu[i].total_waiting_time / (float)menu[i].menu_count);
 	}
-	printf("취소된 주문 %d 개\n", ...);
+	printf("취소된 주문 %d 개\n", canceled_order);
+	printf("서버1과 서버2 휴식 시간 : %d, %d\n", server1.rest_time, server2.rest_time);
 	printf("================================\n");
 }
 
