@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define _CRT_SECURE_NO_WARNINGS
-#define PROB 1 // 각각의 문제를 구현하고 해당 문제 번호를 변경하여 테스트
+#define PROB 2 // 각각의 문제를 구현하고 해당 문제 번호를 변경하여 테스트
 #if PROB == 1
 // 1번 문제를 해결하기 위한 프로그램 작성
 

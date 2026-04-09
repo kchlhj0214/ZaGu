@@ -1,3 +1,105 @@
 ﻿  Proj_08_kch.c
-C:\Users\User\Documents\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(168,8): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Proj_08_kch.vcxproj -> C:\Users\User\Documents\GitHub\ZaGu\Proj_08_kch\x64\Debug\Proj_08_kch.exe
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(200,2): error C2061: 구문 오류: 식별자 'Node'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(201,1): error C2059: 구문 오류: '}'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(204,2): error C2061: 구문 오류: 식별자 'Node'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(206,1): error C2059: 구문 오류: '}'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(208,21): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(208,21): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(208,24): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(208,23): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(213,24): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(213,24): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(213,27): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(213,26): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(217,23): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(217,23): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(217,26): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(217,25): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(247,20): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(247,20): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(247,25): error C2370: 'element': 재정의. 스토리지 클래스가 다릅니다.
+      C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(196,13):
+      'element' 선언을 참조하십시오.
+  
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(247,33): error C2146: 구문 오류: ';'이(가) 'item' 식별자 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(247,37): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(247,33): error C2054: 'item' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(291,22): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(291,22): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(291,27): error C2370: 'element': 재정의. 스토리지 클래스가 다릅니다.
+      C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(196,13):
+      'element' 선언을 참조하십시오.
+  
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(291,35): error C2146: 구문 오류: ';'이(가) 'item' 식별자 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(291,39): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(291,35): error C2054: 'item' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(319,22): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(319,22): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(319,25): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(319,24): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(332,26): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(332,26): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(332,31): error C2370: 'element': 재정의. 스토리지 클래스가 다릅니다.
+      C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(196,13):
+      'element' 선언을 참조하십시오.
+  
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(332,39): error C2146: 구문 오류: ';'이(가) 'item' 식별자 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(332,43): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(332,39): error C2054: 'item' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(346,26): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(346,26): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(346,29): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(346,28): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(350,29): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(350,29): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(350,34): error C2059: 구문 오류: '형식'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(350,41): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(380,11): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(380,31): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(380,31): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(380,34): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(380,33): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(401,24): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(401,24): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(401,27): error C2059: 구문 오류: ')'
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(401,26): error C2054: 'L' 다음에 '('가 필요합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(413,2): error C2065: 'SortedList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(413,13): error C2146: 구문 오류: ';'이(가) 'list' 식별자 앞에 없습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(413,13): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(414,2): error C2065: 'SortedList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(414,14): error C2065: 'rList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(414,12): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(417,2): warning C4013: 'init'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(417,8): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(422,3): warning C4013: 'add'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(422,8): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(423,3): warning C4013: 'display'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(423,12): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(424,8): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(432,31): warning C4013: 'get_length'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(432,43): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(433,43): warning C4013: 'is_empty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(433,53): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(433,60): warning C4013: 'is_full'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(433,69): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(434,57): warning C4013: 'get_entry'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(434,68): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(435,53): warning C4013: 'is_in_list'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(435,65): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(436,63): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(437,49): warning C4013: 'delete'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(437,57): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(438,11): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(439,2): error C2065: 'rList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(439,10): warning C4013: 'reverse'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(439,19): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(440,10): error C2065: 'rList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(442,2): warning C4013: 'clear'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(442,9): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(443,11): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(444,43): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(447,6): error C2065: 'rList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(447,12): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(448,9): error C2065: 'rList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(449,8): error C2065: 'rList': 선언되지 않은 식별자입니다.
+C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_08_kch\Proj_08_kch\Proj_08_kch.c(449,8): warning C4022: 'free': 실제 매개 변수 1의 포인터가 일치하지 않습니다.
