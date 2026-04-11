@@ -1,0 +1,14 @@
+﻿  Proj_09_kch.c
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(33,31): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(34,2): warning C4013: 'strcpy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(53,3): warning C4098: 'delete_cSong': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(78,3): warning C4098: 'change_cSong': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(84,3): warning C4098: 'change_cSong': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(132,3): warning C4098: 'delete_cPlaylist': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(160,3): warning C4098: 'change_cPlaylist': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(166,3): warning C4098: 'change_cPlaylist': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(224,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(239,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(264,6): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\Proj_09_kch\Proj_09_kch.c(278,7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Proj_09_kch.vcxproj -> C:\Users\User\Documents\GitHub\ZaGu\Proj_09_kch\x64\Debug\Proj_09_kch.exe
