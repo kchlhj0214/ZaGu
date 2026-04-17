@@ -24,9 +24,6 @@ TreeNode n1 = { 1, &n2, &n3 };
 TreeNode* root = &n1;
 // 배열로 이진트리 구성
 typedef struct NODE { int data; int leaf; } node; // leaf의 값이 1이면 child가 있음
-// Full Binary Tree node number 1~15(root 1, left child n*2, right child n*2+1
-node arr[] = { {0,0}, {1,1}, {2,1}, {3,1}, {4,1}, {5,1}, {6,1}, {7,1}, {8,0}, {9,0}, {10,0}, {11,0},
-{12,0}, {13,0}, {14,0}, {15,0} };
 
 // 중위순회
 void inorder_rec(TreeNode* root) {
@@ -114,6 +111,41 @@ void postorder_iter(TreeNode* root) {
 	}
 }
 
+#define MAX_TREE_SIZE 15
+// Full Binary Tree node number 1~15(root 1, left child n*2, right child n*2+1
+node arr[MAX_TREE_SIZE + 1] = { {0,0}, {1,1}, {2,1}, {3,1}, {4,1}, {5,1}, {6,1}, {7,1}, {8,0}, {9,0}, {10,0}, {11,0},
+{12,0}, {13,0}, {14,0}, {15,0} };
+
+void inorder_rec_arr(node* ary, int idx) {
+	if (idx > MAX_TREE_SIZE) return;
+
+	inorder_rec_arr(ary, idx * 2);
+
+	printf("[%d] ", ary[idx].data);
+
+	inorder_rec_arr(ary, idx * 2 + 1);
+}
+
+void preorder_rec_arr(node* ary, int idx) {
+	if (idx > MAX_TREE_SIZE) return;
+
+	printf("[%d] ", ary[idx].data);
+
+	preorder_rec_arr(ary, idx * 2);
+
+	preorder_rec_arr(ary, idx * 2 + 1);
+}
+
+void postorder_rec_arr(node* ary, int idx) {
+	if (idx > MAX_TREE_SIZE) return;
+
+	postorder_rec_arr(ary, idx * 2);
+
+	postorder_rec_arr(ary, idx * 2 + 1);
+
+	printf("[%d] ", ary[idx].data);
+}
+
 int main()
 {
 	printf("중위 순회(rec)      = ");
@@ -123,7 +155,7 @@ int main()
 	inorder_iter(root);
 	printf("\n");
 	printf("배열 중위 순회(rec) = ");
-	//inorder_rec_arr(arr, 1);
+	inorder_rec_arr(arr, 1);
 	printf("\n\n");
 	printf("전위 순회(rec)      = ");
 	preorder_rec(root);
@@ -132,7 +164,7 @@ int main()
 	preorder_iter(root);
 	printf("\n");
 	printf("배열 전위 순회(rec) = ");
-	//preorder_rec_arr(arr, 1);
+	preorder_rec_arr(arr, 1);
 	printf("\n\n");
 	printf("후위 순회(rec)      = ");
 	postorder_rec(root);
@@ -140,8 +172,8 @@ int main()
 	printf("후위 순회(itr)      = ");
 	postorder_iter(root);
 	printf("\n");
-	printf("배열 후위 순회(rec)=");
-	//postorder_rec_arr(arr, 1);
+	printf("배열 후위 순회(rec) = ");
+	postorder_rec_arr(arr, 1);
 	printf("\n\n");
 	return 0;
 }
