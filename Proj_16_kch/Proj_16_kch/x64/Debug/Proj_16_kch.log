@@ -1,0 +1,3 @@
+﻿  Proj_16_kch.c
+C:\Users\wlsdl\source\repos\Proj_16_kch\Proj_16_kch\Proj_16_kch.c(192,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  Proj_16_kch.vcxproj -> C:\Users\wlsdl\source\repos\Proj_16_kch\x64\Debug\Proj_16_kch.exe
