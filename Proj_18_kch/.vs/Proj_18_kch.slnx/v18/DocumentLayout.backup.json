@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wlsdl\\source\\repos\\Proj_18_kch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99C17AEC-2775-4180-BD0F-57BE3CC00C71}|Proj_18_kch\\Proj_18_kch.vcxproj|C:\\Users\\wlsdl\\source\\repos\\Proj_18_kch\\Proj_18_kch\\Proj_18_kch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99C17AEC-2775-4180-BD0F-57BE3CC00C71}|Proj_18_kch\\Proj_18_kch.vcxproj|solutionrelative:Proj_18_kch\\Proj_18_kch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Proj_18_kch.c",
+              "DocumentMoniker": "C:\\Users\\wlsdl\\source\\repos\\Proj_18_kch\\Proj_18_kch\\Proj_18_kch.c",
+              "RelativeDocumentMoniker": "Proj_18_kch\\Proj_18_kch.c",
+              "ToolTip": "C:\\Users\\wlsdl\\source\\repos\\Proj_18_kch\\Proj_18_kch\\Proj_18_kch.c*",
+              "RelativeToolTip": "Proj_18_kch\\Proj_18_kch.c*",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAIwKwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-19T07:56:47.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
