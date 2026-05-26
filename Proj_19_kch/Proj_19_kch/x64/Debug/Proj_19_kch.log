@@ -1,3 +1,2 @@
 ﻿  Proj_19_kch.c
-C:\Users\wlsdl\source\repos\Proj_19_kch\Proj_19_kch\Proj_19_kch.c(48,20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Proj_19_kch.vcxproj -> C:\Users\wlsdl\source\repos\Proj_19_kch\x64\Debug\Proj_19_kch.exe
+  Proj_19_kch.vcxproj -> C:\Users\wlsdl\OneDrive\문서\GitHub\ZaGu\Proj_19_kch\x64\Debug\Proj_19_kch.exe
